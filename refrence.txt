@@ -1,0 +1,15 @@
+ API insights
+
+All the fields are mandatory :
+
+ 1. POST / user / register-- Sign in for user
+    { firstName, lastName, email, password }
+
+ 2. POST / user / login-- Login for user
+     { email, password }
+ 3. GET / -- Home Page <- Book Listing
+
+ 4. GET /:bookId <- find a book for given bookId
+
+ 5. POST / <- create a book
+    {title, authorName, description, price, bookImage = type  : file <- stores the path of the book } 
